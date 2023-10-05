@@ -1,0 +1,71 @@
+//html
+{/* <input type="text" id="product_name" value="">
+    <button id="product_btn">add</button>
+    <div id="product_container"></div>
+//  */}
+
+// let productBtn = document.getElementById('product_btn')
+// let productName = document.getElementById('product_name')
+// let productContainer = document.getElementById('product_container')
+
+// let data = [
+
+//     {
+//         id:1 , name: 'product 1', desc:'bla bla bla'
+//     },  
+//     {
+//         id:2 , name: 'product 2', desc:'bla bla bla'
+//     }  ,
+//     {
+//         id:3 , name: 'product 3', desc:'bla bla bla'
+//     }  ,
+//     {
+//         id:4 , name: 'product 4', desc:'bla bla bla'
+//     }  
+// ]
+// //draw ui
+//     function drawUi(items){
+//         productContainer.innerHTML = ""
+
+//         items.forEach(element => {
+//      productContainer.innerHTML +=
+
+//  ` <div onclick = 'deleteItem(${element.id})'>
+//  ${element.name}
+//    </div>`     
+
+// });    }
+// //load data
+// window.onload = function (){
+//     drawUi(data);
+// }
+// //add item
+// productBtn.addEventListener('click',additem)
+// function additem(){
+//     let productName = document.querySelector('#product_name')
+//     if(productName.value == ''){
+//         alert("please enter a value")
+//     }else{
+//         let lastid = data.length?data[data.length-1].id : 0
+//     data.push({ id:++lastid ,name: productName.value ,desc: 'blabla bla'})
+// let addeditem = data[data.length-1]
+// productContainer.innerHTML += 
+
+// `<div onclick = 'deleteItem(${addeditem.id})'>
+// ${addeditem.name}
+// </div>`
+
+
+// productName.value ="";
+
+// }
+// }
+// function deleteItem(id){
+// let index = data.map(function(i){
+//     return i.id;}).indexOf(id);
+//     if(index !== -1){data.splice(index, 1);
+//     drawUi(data)
+//     }
+// }
+
+

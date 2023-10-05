@@ -1,0 +1,27 @@
+// //html
+// <ul class="list"> 
+// <li price="50"> keyboard </li>
+// <li price="50"> ear-boudes</li>
+// <li price="50"> nois-canselation</li>
+//     </ul>
+// <div id="cart"></div>
+// <button id="addToCart" style="display: none;"> show total price </button>
+//    //js
+// let allitems = document.querySelectorAll(".list li");
+// let cart = document.getElementById("cart");
+// let btn = document.getElementById("addToCart");
+// let totalPrice = 0 ;
+// //------------------------------------------
+// allitems.forEach( function(item){
+//     item.addEventListener('click',function(){ cart.innerHTML += item.textContent
+//             totalPrice += parseInt(item.getAttribute('price'))
+
+// if(cart.innerHTML !=''){
+//     btn.style.display = "block";
+// }
+
+
+// })});
+//  btn.addEventListener('click',function(){
+//     console.log(totalPrice)
+//  }) 
